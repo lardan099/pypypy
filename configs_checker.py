@@ -6,7 +6,6 @@ import time
 import socket
 import os
 import base64
-import threading
 import queue
 from urllib.parse import urlparse, parse_qs, unquote, quote
 from datetime import datetime, timezone, timedelta
@@ -15,9 +14,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # === Настройки ===
 SING_BOX_PATH = "./sing-box"
 TEST_URL = "http://cp.cloudflare.com/generate_204"
-TIMEOUT = 8
+TIMEOUT = 10
 THREADS = 5
-STARTUP_WAIT = 1.5
+STARTUP_WAIT = 2
 
 VALID_SCHEMES = {"vless", "ss", "vmess", "trojan", "hy2", "hysteria2"}
 
@@ -329,27 +328,49 @@ for p in range(20001, 20001 + THREADS):
     port_pool.put(p)
 
 
+# Счётчик для диагностики — показываем ошибки sing-box для первых N фейлов
+_diag_count = 0
+DIAG_LIMIT = 10  # Показать ошибки sing-box для первых 10 неудач
+
+
 def check_config(url):
-    """Проверяет один конфиг через sing-box. Возвращает (url, success, latency_ms)"""
+    """Проверяет один конфиг через sing-box. Возвращает (url, success, latency_ms, error)"""
+    global _diag_count
     outbound = parse_config(url)
     if not outbound:
-        return url, False, 0
+        return url, False, 0, "parse_failed"
 
     port = port_pool.get()
     config = create_singbox_config(outbound, port)
     config_file = f"tmp_{port}.json"
     proc = None
+    error = ""
 
     try:
         with open(config_file, "w") as f:
             json.dump(config, f)
 
+        # Сначала проверим конфиг без запуска
+        check_result = subprocess.run(
+            [SING_BOX_PATH, "check", "-c", config_file],
+            capture_output=True, text=True, timeout=5
+        )
+        if check_result.returncode != 0:
+            error = f"config_invalid: {check_result.stderr.strip()[:200]}"
+            return url, False, 0, error
+
         proc = subprocess.Popen(
             [SING_BOX_PATH, "run", "-c", config_file],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
         )
         time.sleep(STARTUP_WAIT)
+
+        # Проверяем что процесс жив
+        if proc.poll() is not None:
+            stderr_out = proc.stderr.read().decode(errors="replace")[:200]
+            error = f"sing-box crashed: {stderr_out}"
+            return url, False, 0, error
 
         start = time.time()
         proxies = {
@@ -359,9 +380,14 @@ def check_config(url):
         r = requests.get(TEST_URL, proxies=proxies, timeout=TIMEOUT)
         if r.status_code in (200, 204):
             latency = int((time.time() - start) * 1000)
-            return url, True, latency
-    except Exception:
-        pass
+            return url, True, latency, ""
+        error = f"http_status={r.status_code}"
+    except requests.exceptions.ConnectionError:
+        error = "connection_refused"
+    except requests.exceptions.Timeout:
+        error = "timeout"
+    except Exception as e:
+        error = str(e)[:100]
     finally:
         if proc:
             proc.terminate()
@@ -375,25 +401,32 @@ def check_config(url):
             pass
         port_pool.put(port)
 
-    return url, False, 0
+    return url, False, 0, error
 
 
 def validate_configs(configs):
     """Проверяет список конфигов параллельно. Возвращает set валидных URL."""
+    global _diag_count
     valid = set()
     total = len(configs)
     done = 0
+    live = 0
 
     with ThreadPoolExecutor(max_workers=THREADS) as executor:
         futures = {executor.submit(check_config, url): url for url in configs}
         for future in as_completed(futures):
-            url, success, latency = future.result()
+            url, success, latency, error = future.result()
             done += 1
             if success:
-                print(f"[{done}/{total}] [OK] {latency}ms | {url[:80]}...")
+                live += 1
+                print(f"[{done}/{total}] [LIVE: {live}] [OK] {latency}ms | {url[:80]}...")
                 valid.add(url)
             else:
-                print(f"[{done}/{total}] [DEAD] | {url[:80]}...")
+                diag = ""
+                if _diag_count < DIAG_LIMIT and error:
+                    _diag_count += 1
+                    diag = f" reason: {error}"
+                print(f"[{done}/{total}] [LIVE: {live}] [DEAD] | {url[:80]}...{diag}")
 
     return valid
 
