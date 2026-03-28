@@ -311,7 +311,7 @@ def parse_config(url):
 
 def create_singbox_config(outbound, listen_port):
     return {
-        "log": {"level": "silent"},
+        "log": {"disabled": True},
         "inbounds": [{
             "type": "socks",
             "tag": "socks-in",
