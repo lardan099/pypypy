@@ -1,6 +1,6 @@
 # profile-title: ОБЫЧНЫЕ КОНФИГИ
 # profile-update-interval: 5
-# Date/Time: 2026-04-23 / 23:08 (Moscow)
+# Date/Time: 2026-04-24 / 00:45 (Moscow)
 # Количество: 56
 
 hysteria2://123456789StrongPass@144.31.224.14:443?security=tls&allowInsecure=true#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
@@ -24,7 +24,6 @@ hysteria2://820409af-997a-41c4-9e51-46f373951a39@144.24.74.102:50914?headerType=
 hysteria2://820409af-997a-41c4-9e51-46f373951a39@144.24.74.102:50914?security=tls&insecure=1&sni=www.bing.com#%F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2C%20Chuncheon-si%20%7C%20%5BBL%5D
 hysteria2://a50a83bd-1fe8-4dd4-ba55-48f80190f527@152.53.54.139:36002?headerType=none&encryption=none&sni=hk1.zongyunti.site&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Manassas%20%7C%20%5BBL%5D
 hysteria2://a50a83bd-1fe8-4dd4-ba55-48f80190f527@152.53.54.139:36002?insecure=1&sni=hk1.zongyunti.site#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Manassas%20%7C%20%5BBL%5D
-hysteria2://c3a8753e-317e-479e-bee7-01adf5e2af7e@fre.guren1.me:8443?insecure=1&sni=python.org#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 hysteria2://dongtaiwang.com@163.172.113.118:40022/?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&insecure=1&sni=www.microsoft.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 hysteria2://dongtaiwang.com@163.172.113.118:40022?headerType=none&encryption=none&sni=www.microsoft.com&insecure=1#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 hysteria2://dongtaiwang.com@163.172.113.118:40022?insecure=1&sni=www.microsoft.com&mport=41000#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
@@ -37,6 +36,7 @@ hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?insecur
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:12855?encryption=none&sni=www.microsoft.com&insecure=1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:12855?insecure=1&sni=www.microsoft.com#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:12855?sni=www.microsoft.com&insecure=1&allowInsecure=1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BBL%5D
+hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:38563?sni=www.microsoft.com&insecure=1#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 hysteria2://hysteria_master_password@72.56.122.195:443?encryption=none&sni=google.com&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 hysteria2://hysteria_master_password@72.56.122.195:443?headerType=none&encryption=none&sni=www.bing.com&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 hysteria2://hysteria_master_password@72.56.122.195:443?insecure=1&sni=www.bing.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
@@ -49,8 +49,8 @@ hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-uk-004.fastervpn.world:443?headerType=n
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-uk-004.fastervpn.world:443?insecure=1&sni=vpn-uk-004.fastervpn.world#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-vn-001.fastervpn.world:443/?insecure=1&sni=vpn-vn-001.fastervpn.world#%F0%9F%87%BB%F0%9F%87%B3%20Vietnam%2C%20Qu%E1%BA%ADn%20B%E1%BB%91n%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-vn-001.fastervpn.world:443?headerType=none&encryption=none&sni=vpn-vn-001.fastervpn.world&insecure=1#%F0%9F%87%BB%F0%9F%87%B3%20Vietnam%2C%20Qu%E1%BA%ADn%20B%E1%BB%91n%20%7C%20%5BBL%5D
+vless://0c8a9f50-51b3-43b5-b1fb-09fc3131a800@153.76.122.208:8443?flow=xtls-rprx-vision&security=reality&sni=gwapp-pl01.freenets.store&fp=chrome&pbk=6HLd5scfmPQ0J265arSRZJzPSr1HrVQ41QxYOTnxjCo&spx=%2f&type=tcp&path=%2f#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Atlanta%20%28Midtown%20Atlanta%29%20%7C%20%5BBL%5D
 vless://0c8a9f50-51b3-43b5-b1fb-09fc3131a800@gwapp-ru01.freenets.store:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GsfqAd66XSHFTFaoPA1YSuJXpsSt-Lx0qQ7_1xTRbhA&sid=&sni=gwapp-ru01.freenets.store#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://360f1d71-f8dd-4c71-aa4f-347486312dca@hk.chinablog.xyz:8080?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM&sni=www.liblib.art#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
 vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.217.75.84:443?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=reality&flow=&fp=chrome&insecure=1&sni=sgtm.jetbrains.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&sid=#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
 vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.217.75.84:443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&sid=&sni=sgtm.jetbrains.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
 vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.217.75.84:443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&sid=&sni=sgtm.jetbrains.com&path=&host=&serviceName=&quicSecurity=none#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
