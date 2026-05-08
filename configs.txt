@@ -1,7 +1,7 @@
 # profile-title: ОБЫЧНЫЕ КОНФИГИ
 # profile-update-interval: 5
-# Date/Time: 2026-05-08 / 23:36 (Moscow)
-# Количество: 130
+# Date/Time: 2026-05-09 / 01:02 (Moscow)
+# Количество: 132
 
 hysteria2://239471f8-4608-438e-9d2e-a6a950d98ad4@31.59.104.139:8443?headerType=none&encryption=none&sni=bing.com&insecure=1#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
 hysteria2://239471f8-4608-438e-9d2e-a6a950d98ad4@31.59.104.139:8443?sni=bing.com&insecure=1#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
@@ -69,6 +69,7 @@ hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-010.fastervpn.world:443/?insecure=1&
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-010.fastervpn.world:443?headerType=none&encryption=none&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20City%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-010.fastervpn.world:443?headerType=none&encryption=none&sni=vpn-jp-010.fastervpn.world&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20City%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-011.fastervpn.world:443?headerType=none&encryption=none&sni=vpn-jp-011.fastervpn.world&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20City%20%7C%20%5BBL%5D
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-tw-001.fastervpn.world:443?headerType=none&encryption=none&sni=vpn-tw-001.fastervpn.world&insecure=1#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taoyuan%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-tw-001.fastervpn.world:443?insecure=1&sni=vpn-tw-001.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taoyuan%20%7C%20%5BBL%5D
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-tw-001.fastervpn.world:443?security=tls&insecure=1&sni=vpn-tw-001.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taoyuan%20%7C%20%5BBL%5D
 trojan://7aXwJPnpAJ@yespaintstudio.rav-kraski.ru:50824?security=tls&sni=yespaintstudio.rav-kraski.ru&alpn=h2%2Chttp%2F1.1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Orem%20%7C%20%5BBL%5D
@@ -104,6 +105,7 @@ vless://freedom-runet-15@balancer.colorbox.space:443?security=reality&flow=xtls-
 vless://freedom-runet-1@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://freedom-runet-24@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://freedom-runet-27@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+vless://freedom-runet-28@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://freedom-runet-29@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://freedom-runet-30@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://freedom-runet-31@balancer.colorbox.space:443?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=rvES-av4STCQYkhl9LwpjMeqxFhz-yHwzFDU8u61El8&sid=b8f356b22266c473&sni=balancer.colorbox.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
