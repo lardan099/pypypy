@@ -1,7 +1,7 @@
 # profile-title: ОБЫЧНЫЕ КОНФИГИ
 # profile-update-interval: 5
-# Date/Time: 2026-07-09 / 00:08 (Moscow)
-# Количество: 40
+# Date/Time: 2026-07-09 / 01:40 (Moscow)
+# Количество: 39
 
 hysteria2://35415e5e-3666-4454-8c45-903af0fcddf4@85.120.228.208:47257?sni=www.bing.com&insecure=1&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20N%C4%83vodari%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 hysteria2://35415e5e-3666-4454-8c45-903af0fcddf4@85.120.228.208:47257?sni=www.bing.com&insecure=1&alpn=h3#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20N%C4%83vodari%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
@@ -9,13 +9,13 @@ hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@202.146.222.29:443?insecure=1&sni=https%3A%
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@202.146.222.29:443?sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&insecure=1&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&sni=vpn-tw-002.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taoyuan%20%7C%20%5BBL%5D
 hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?insecure=1&sni=www.microsoft.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?sni=5.255.102.165&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@62.210.27.216:60111?sni=bing.com&insecure=1&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@62.210.27.216:60111?sni=bing.com&insecure=1&obfs-password=github.com%2FAlvin9999-newpac%2Ffanqiang#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+trojan://humanity@216.24.57.1:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&ech=54.mk%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.calmloud.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+trojan://humanity@216.24.57.1:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&ech=54.mk%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.creationlong.org#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%5BBL%5D
 trojan://u2sVknrSIFjDojeqAUjgYkCnh9szHcMQ@103.106.228.187:54603/?type=tcp&security=tls&sni=103.106.228.187&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Chiyoda%20City%20%7C%20%5BBL%5D
 vless://00cb997f-aebb-4c0b-93de-616962738aa0@news.zoom.us:8443?type=ws&security=tls&fp=chrome&sni=apexcloud.ggff.net&path=/apexcloud.ggff.net&host=apexcloud.ggff.net#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?encryption=none&security=tls&sni=amooaliii.net&echfq=none&allowinsecure=0&type=ws&host=amooaliii.net&path=%2Fjdhfyws&fragment=2%2C0-1%2Ctlshello%2Cnull&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delay%22%3A%220-1%22%2C%22length%22%3A%222%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?security=tls&type=ws&path=/jdhfyws&host=amooaliii.net&packetEncoding=xudp&sni=amooaliii.net&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@ro.spectrum.vu:443?encryption=none&type=grpc&security=reality&sni=ro.spectrum.vu&pbk=Ia9JdXTzAzoqPEkarBg6HFdXrSKYcUh_dt59tyMjukk&sid=c9e0a2f4b6d8&fp=chrome&serviceName=vless#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
 vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?encryption=none&type=ws&host=speed.dulacloud.store&path=%2Fdula&security=tls&fp=chrome&sni=speed.dulacloud.store#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Somapah%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?path=%2Fdula&security=tls&encryption=none&host=speed.dulacloud.store&type=ws&sni=speed.dulacloud.store&allowInsecure=0&insecure=0#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Somapah%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?type=ws&security=tls&fp=firefox&sni=speed.dulacloud.store&path=/dula&host=speed.dulacloud.store#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Somapah%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
@@ -24,7 +24,6 @@ vless://7983f39c-7251-43b9-991d-62677bfee640@support.zoom.us:80?packetEncoding=x
 vless://7983f39c-7251-43b9-991d-62677bfee640@support.zoom.us:80?security=none&type=ws&path=%2Fapexcloud.ggff.net&host=apexcloud.ggff.net&packetEncoding=xudp&encryption=none#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://7983f39c-7251-43b9-991d-62677bfee640@support.zoom.us:80?type=ws&security=none&fp=firefox&path=/apexcloud.ggff.net&host=apexcloud.ggff.net#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://7983f39c-7251-43b9-991d-62677bfee640@support.zoom.us:80?type=ws&security=none&fp=firefox&sni=support.zoom.us&path=/apexcloud.ggff.net&host=apexcloud.ggff.net#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://b9a83acf-44ff-44a5-b8bc-417c9f82ae11@45.196.193.116:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=storage.yandex.net&fp=firefox&pbk=IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY&sid=40ce08cf20c67003&flow=xtls-rprx-vision#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Zurich%20%7C%20%5BBL%5D
 vless://c7c0e837-d9ac-4211-aee7-1e7691be3be1@78.17.3.113:443?flow=xtls-rprx-vision&fp=firefox&pbk=X2H-SQTGBao3eTqP9D3M75dXjfydbhShHbkV9KC6vy4&security=reality&sid=433b9f&sni=www.cloudflare.com&spx=/pE1SnhKo0MBSOPj&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%28Harju%29%20%7C%20%5BBL%5D
 vless://c99fdb9a-0cec-497d-9d29-d45ed770807b@us2.fast-cone.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=Od_l3To6OKuXy19tY0Feep0qNZfWcDL8kW3dRQHW2AQ&sid=99&sni=us2.fast-cone.com&spx=/#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20New%20York%20%7C%20%5BBL%5D
 vless://cac6ec8f-99f0-44c5-814f-2f3f65e4db74@170.114.45.6:80?encryption=none&security=none&type=ws&host=speed.dulacloud.store&path=/dula#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Somapah%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
